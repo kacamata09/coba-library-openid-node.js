@@ -11,11 +11,11 @@ untuk cara penggunaan nya,
 
 
 untuk tutorial nya kalian bisa liat di bawah ini:
-- cara membuat openid atau oidc(openid connect) provider
+- cara membuat openid atau oidc(openid connect) provider =>
   https://medium.com/@nitesh_17214/oauth-2-0-authorization-server-using-nodejs-and-expressjs-cf65860fed1e
   untuk web npm nya : https://www.npmjs.com/package/oidc-provider
   
-- cara membuat web yang suppport login openid atau disebut oidc client
+- cara membuat web yang suppport login openid atau disebut oidc client =>
   https://medium.com/@nitesh_17214/how-to-create-oidc-client-in-nodejs-b8ea779e0c64
   untuk web npm nya : https://www.npmjs.com/package/oidc-client
 
