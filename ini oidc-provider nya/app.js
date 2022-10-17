@@ -15,7 +15,8 @@ const configuration = {
      client_id: "oidcCLIENT",      
      client_secret: "Some_super_secret",      
      grant_types: ["authorization_code"],      
-     redirect_uris: [ "http://localhost:8080/auth/login/callback","https://oidcdebugger.com/debug"], 
+    //  redirect_uris: [ "http://localhost:8080/auth/login/callback","https://oidcdebugger.com/debug"], 
+     redirect_uris: [ "http://localhost:8080/auth/login/callback"], 
      response_types: ["code",],  
        
    //other configurations if needed

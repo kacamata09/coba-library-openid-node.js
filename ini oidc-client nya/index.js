@@ -77,11 +77,17 @@ passport.authenticate('oidc',{scope:"openid"}));
 
 app.get('/auth/login/callback',(req,res,next) =>{
 
-  passport.authenticate('oidc',{ successRedirect: '/user',
+  passport.authenticate('oidc',{ successRedirect: '/beranda',
   failureRedirect: '/' })(req, res, next)
 }
   
 )
+
+
+app.get('/beranda', (requ, resp) => {
+  resp.send('<h1>selamat anda berhasil login menggunakan oauth provider</h1>')
+  resp.end(JSON.stringify({tokenset:requ.session.tokenSet,userinfo:requ.session.userinfo},null,2));
+})
 
 app.get("/",(req,res) =>{
    res.send(" <a href='/login'>Log In with OAuth 2.0 Provider </a>")
