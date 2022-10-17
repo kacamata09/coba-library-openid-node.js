@@ -1,6 +1,7 @@
 # coba-library-openid-node.js
 
 Nyoba buat openid / oauth2 provider sekaligus openid clientnya. Code ini diambil dari tutorial https://medium.com/@nitesh_17214
+
 aku sudah modifikasi di atas sedikit untuk penggunaan belajar, jadi kunjungi untuk penjelasan lebih lanjut nya https://medium.com/@nitesh_17214
 
 untuk cara penggunaan nya, 
